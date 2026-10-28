@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- The voice line, played at the moment of the Good Night. -->
+  <SoundDef>
+    <defName>SQP_GoodNightVoice</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>SquadPTSD/GoodNightPrincess</clipPath>
+          </li>
+        </grains>
+        <volumeRange>55~55</volumeRange>
+        <pitchRange>1~1</pitchRange>
+        <distRange>0~35</distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

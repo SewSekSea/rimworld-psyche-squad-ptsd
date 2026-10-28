@@ -1,0 +1,66 @@
+{
+  "name": "Squad PTSD",
+  "packageId": "squad.ptsd",
+  "assemblyName": "SquadPTSD",
+  "repositoryName": "rimworld-psyche-squad-ptsd",
+  "workshopId": "3804703807",
+  "metadataVersions": [
+    "1.6",
+    "1.7"
+  ],
+  "originalSourceUnit": "Psyche Mods/SquadPTSD",
+  "sourceSnapshotUtc": "2026-10-28T17:10:17.146Z",
+  "sourceFileFingerprints": [
+    {
+      "path": "About/About.xml",
+      "sha256": "72CCC471AF8C1EEBDB3463FFFBB0129E5A012F42931497D1D22744397B46EE4B",
+      "bytes": 2342
+    },
+    {
+      "path": "About/Preview.png",
+      "sha256": "9F240634D13586ABAEEC1D32FB21E75101AE20A3EF9D74F04E6DD964FAD56C17",
+      "bytes": 369991
+    },
+    {
+      "path": "About/PublishedFileId.txt",
+      "sha256": "EE092A57F2F766F01A28947F54CA158D992F6E015734FBF18C4F897BFA50046B",
+      "bytes": 10
+    },
+    {
+      "path": "Defs/SquadPTSD_Defs.xml",
+      "sha256": "70F37F7747C1A4C47D4293C919C074A9154B3C5EEDD09C37894F9882B459505C",
+      "bytes": 2100
+    },
+    {
+      "path": "Defs/SquadPTSD_Sounds.xml",
+      "sha256": "5A5D34F335814E243A3DA70A4240310845E4A2AE84126CEA2287D1DDBFF0AA36",
+      "bytes": 585
+    },
+    {
+      "path": "Patches/SquadPTSD_ThinkTree.xml",
+      "sha256": "E7A3E02910EC68D0B6F008225A1646E01636B416164188CB0541A39D89BC3FB4",
+      "bytes": 659
+    },
+    {
+      "path": "Source/SquadPTSD/SquadPTSD.cs",
+      "sha256": "13E1B627DBA8D1B527C58276E9E99ABC83AD656AB97210A4877928EB4AB1D2AB",
+      "bytes": 23347
+    },
+    {
+      "path": "Source/SquadPTSD/SquadPTSD.csproj",
+      "sha256": "5B79EC0AD69BBCA03B54FB01ED75149AD2C327DE196C8F31731D540223435AA6",
+      "bytes": 1590
+    },
+    {
+      "path": "Sounds/SquadPTSD/GoodNightPrincess.wav",
+      "sha256": "261178F7769B3DBA47BE0B8DF877B768A00A268BE19911FF6FEE566311248A00",
+      "bytes": 187028
+    }
+  ],
+  "stagedProjectAdjustments": [],
+  "build16": "NOT_RUN_THIS_PASS",
+  "build17": "COMPILED_AGAINST_LOCAL_1.7_API",
+  "nativePlaytest": "NOT_RUN_THIS_PUBLICATION_PASS",
+  "gameplaySourceModified": false,
+  "compiled17SHA256": "CC50583F196AA2418D0F94FD2A072943371F0C6562A4503CCFD54B4EE581E901"
+}

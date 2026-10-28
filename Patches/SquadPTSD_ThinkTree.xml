@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!--
+    Tells the game what a colonist does during a mercy-killing episode,
+    the same way it handles murderous rage: a behaviour entry that only applies while in this state.
+  -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThinkTreeDef[defName="MentalStateNonCritical"]/thinkRoot/subNodes</xpath>
+    <value>
+      <li Class="ThinkNode_ConditionalMentalState">
+        <state>SQP_MercyKilling</state>
+        <subNodes>
+          <li Class="SquadPTSD.JobGiver_MercyKill" />
+          <li Class="JobGiver_WanderColony" />
+        </subNodes>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Squad PTSD</name>
+  <author>T&amp;B Modding</author>
+  <packageId>squad.ptsd</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <description>Some soldiers come back from the worst of it changed.
+
+An add-on for Sociopath. Works alongside Squad and Pawnicide.
+
+Hardened by war
+- When a colonist who has been in combat has a sad-wandering breakdown, there is a high chance (50%) that it hardens them. They come out of it a Sociopath, and a Callous colonist becomes a full one.
+- A hardened colonist is marked "war-hardened" in their health tab.
+
+Mercy killing
+- A war-hardened colonist decides for themselves who is beyond saving. When someone nearby is downed and beyond saving, the war-hardened colonist has a mercy-killing episode. They go to them, pause, say "Good night princess" out loud, and end it.
+- Beyond saving means downed and either bleeding to death within a few hours, losing to a disease their immunity can't keep up with, or dying of a condition within a day.
+- Anyone downed with wounds they would recover from is safe. So is anyone still on their feet. Children are never targeted.
+- It is a breakdown. You can't order them out of it. The way to stop it is to save the person first: stop the bleeding, and the episode ends.
+- The game treats it as a killing. The victim's family will hold it against them.
+
+Works alongside Pawnicide: this mod carries its own copy of the Good Night finisher, so Pawnicide's drafted commands work exactly as before.
+
+Combat time is counted from when this mod is added.
+
+Requires Harmony and Sociopath. Squad and Pawnicide are optional. RimWorld 1.6, no DLC needed.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>sociopath.trait</packageId>
+      <displayName>Sociopath</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3804356481</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld</li>
+    <li>sociopath.trait</li>
+    <li>squad.morale</li>
+    <li>close.terminateself</li>
+  </loadAfter>
+</ModMetaData>

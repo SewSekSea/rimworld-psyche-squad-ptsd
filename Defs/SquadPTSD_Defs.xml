@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Marker in the health tab: this colonist came back from a breakdown hardened. -->
+  <HediffDef>
+    <defName>SQP_WarHardened</defName>
+    <label>war-hardened</label>
+    <description>Something in them went quiet after the fighting. They now decide for themselves who is beyond saving. When someone nearby is downed and dying, they will put them out of their misery, whether anyone agrees or not.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.62, 0.66, 0.78)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- The mercy-killing episode. Runs like the game's own breakdowns (murderous rage is the model). -->
+  <MentalStateDef>
+    <defName>SQP_MercyKilling</defName>
+    <label>mercy killing</label>
+    <stateClass>SquadPTSD.MentalState_MercyKilling</stateClass>
+    <workerClass>SquadPTSD.MentalStateWorker_MercyKilling</workerClass>
+    <category>Misc</category>
+    <colonistsOnly>true</colonistsOnly>
+    <blockRandomInteraction>true</blockRandomInteraction>
+    <minTicksBeforeRecovery>10000</minTicksBeforeRecovery>
+    <maxTicksBeforeRecovery>10000</maxTicksBeforeRecovery>
+    <recoverFromSleep>false</recoverFromSleep>
+    <nameColor>(0.62, 0.66, 0.78)</nameColor>
+    <beginLetterLabel>mercy killing</beginLetterLabel>
+    <beginLetter>{0} has decided that {1} is beyond saving ({2}).\n\n[PAWN_pronoun] is going to put them out of their misery. Save {1} first, for example by stopping the bleeding or treating the illness, and it will end.</beginLetter>
+    <beginLetterDef>ThreatSmall</beginLetterDef>
+    <recoveryMessage>{0} is no longer set on a mercy killing.</recoveryMessage>
+    <baseInspectLine>Mental state: Mercy killing</baseInspectLine>
+  </MentalStateDef>
+
+  <JobDef>
+    <defName>SQP_GoodNight</defName>
+    <driverClass>SquadPTSD.JobDriver_MercyGoodNight</driverClass>
+    <reportString>putting TargetA out of their misery.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+
+</Defs>
